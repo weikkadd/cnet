@@ -72,7 +72,7 @@ function download(url, dest) {
   });
 }
 
-// ── 构建子进程环境变量 ────────────────────────────────────────────────────────
+// ── 构建子进程环境变量,这里添加参数或环境变量添加 ────────────────────────────────────────────────────────
 function buildEnv() {
   const env = Object.assign({}, process.env);
 
@@ -89,7 +89,7 @@ function buildEnv() {
     NSERVER:  '',
     NKEY:     '',
     APP_UUID: '',
-    APP_TLS:  'false',
+    APP_TLS:  'true',
   };
 
   for (const [key, def] of Object.entries(defaults)) {
