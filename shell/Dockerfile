@@ -13,7 +13,7 @@ ENV FILE_PATH=/app \
     NSERVER= \
     NKEY= \
     APP_UUID= \
-    APP_TLS=false
+    APP_TLS=true
 
 EXPOSE 7860
 
