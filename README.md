@@ -1,6 +1,8 @@
 # cnet 启动器
 
-WebSocket 代理 + Nezha 监控 Agent + Cloudflare Tunnel 三合一启动器，支持 Node.js / Python / Shell 三个版本，自动下载对应架构二进制并守护运行。
+ech 代理 + Nezha 监控 Agent + Cloudflare Tunnel 三合一启动器，支持 Node.js / Python / Shell 三个版本，自动下载对应架构二进制并守护运行。
+
+ech代理软件可以使用这个 https://github.com/byJoey/ech-wk 
 
 ---
 
