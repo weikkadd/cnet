@@ -1,1 +1,1 @@
-config里面设置参数，然后使用7zip打开jar,把config.yml拖进去压缩即可
+config里面设置参数,把config.yml和jar文件一起上传容器即可
